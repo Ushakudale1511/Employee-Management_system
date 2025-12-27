@@ -148,7 +148,7 @@
     <repository>
       <id>github</id>
       <name>GitHub Packages</name>
-      <url>https://maven.pkg.github.com/hoangsonww/Employee-Management-Fullstack-App</url>
+      <url>https://maven.pkg.github.com/UshaKudale1511/Employee-Management-Fullstack-App</url>
     </repository>
   </distributionManagement>
 </project>

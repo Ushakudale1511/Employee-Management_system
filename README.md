@@ -1,9 +1,6 @@
 # Employee Management Full-Stack Application
 
 The **Employee Management Full-Stack Application** is a modern, feature-rich system for managing employee and department data, built to demonstrate the power of combining traditional enterprise technologies with modern web frameworks. It leverages a responsive React frontend alongside a robust Spring Boot backend, delivering a seamless user experience with features such as CRUD operations, data visualization, authentication, and secure REST APIs. 
-
-Designed with scalability and maintainability in mind, this application is also fully containerized with Docker, orchestrated with Kubernetes, and supports CI/CD pipelines & blue/green and canary deployment techniques through Jenkins, making it an ideal blueprint for real-world enterprise applications.
-
 <p align="center">
   <a href="https://employee-management-fullstack-app.vercel.app" target="_blank">
     <img src="img/logo.png" alt="Employee Management Full-Stack Application Logo" style="border-radius: 10px" width="35%"/>
@@ -95,7 +92,6 @@ sequenceDiagram
   - **Swagger**: A tool for documenting and testing RESTful APIs.
 - **Docker**: A containerization platform for packaging applications and their dependencies.
 - **Kubernetes**: An open-source container orchestration platform for automating deployment, scaling, and management of containerized applications.
-- **Jenkins**: An open-source automation server that helps automate the parts of software development related to building, testing, and delivering, facilitating continuous integration and continuous delivery (CI/CD).
 - **MySQL**: A reliable relational database for structured data storage.
 - **MongoDB**: A flexible NoSQL database for non-relational data.
 - **Style Guides**: This project follows the following popular style guides to ensure clean and consistent code.
@@ -105,8 +101,6 @@ sequenceDiagram
 ## User Interface
 
 The frontend of the Employee Management System provides a user-friendly interface for managing employees and departments. It includes features for viewing, adding, editing, and deleting employees and departments. The app also includes visualizations for employee metrics such as growth over time and distribution by age range.
-
-The frontend is also live at [https://employee-management-fullstack-app.vercel.app](https://employee-management-fullstack-app.vercel.app) for you to explore and interact with the application. Note that the backend is not hosted, so the API calls will not work and the data will not be present.
 
 **Landing Page:**
 

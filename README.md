@@ -7,32 +7,9 @@ The **Employee Management Full-Stack Application** is a modern, feature-rich sys
   </a>
 </p>
 
+**  Output:**
 
 
-### Request Lifecycle
-
-```mermaid
-sequenceDiagram
-    participant U as User
-    participant UI as React Component
-    participant C as EmployeeController
-    participant S as EmployeeService
-    participant R as EmployeeRepository
-    participant DB as MySQL
-    U->>UI: Trigger "Add Employee"
-    UI->>C: POST /api/employees
-    C->>S: saveEmployee(employee)
-    S->>R: save(employee)
-    R->>DB: INSERT row
-    DB-->>R: persisted entity
-    R-->>S: Employee
-    S-->>C: Employee
-    C-->>UI: 201 Created + payload
-```
-
-
-> [!IMPORTANT]
-> **Note:** The backend API may spin down due to inactivity, so you may need to wait for up to 2 minutes for the API to start up again. Feel free to test the API endpoints and explore the application. Or, you can run the backend locally and connect it to the frontend for a more seamless experience.
 **Landing Page:**
 
 <p align="center" style="cursor: pointer">

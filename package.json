@@ -38,12 +38,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hoangsonww/Employee-Management-Fullstack-App.git",
+    "url": "git+https://github.com/UshaKudale1511/Employee-Management-Fullstack-App.git",
     "directory": "Employee-Management-Fullstack-App"
   },
   "bugs": {
-    "url": "https://github.com/hoangsonww/Employee-Management-Fullstack-App/issues",
-    "email": "hoangson091104@gmail.com"
+    "url": "https://github.com/UshaKudale1511/Employee-Management-Fullstack-App/issues",
+    "email": "kudaleusha61@gmail.com"
   },
   "keywords": [
     "Employee",
@@ -53,6 +53,4 @@
     "Management",
     "App"
   ],
-  "author": "Son Nguyen",
-  "license": "MIT"
 }

@@ -22,7 +22,6 @@ The backend of the Employee Management System is built using Spring Boot, a powe
 ```mermaid
 mindmap
   root((employee-management-app))
-    docker-compose.yaml
     backend
       src
         main
@@ -50,9 +49,8 @@ mindmap
             data.sql
         test/java/com/example/employeemanagement
           EmployeeManagementApplicationTests.java
-      .gitignore
+
       pom.xml
-      compose.yaml
     frontend
       (frontend code)
 ```
